@@ -3,7 +3,7 @@ import LogoC from "./LogoC";
 
 export default function Navbar() {
   return (
-    <div className="fixed z-[999] w-full px-20 py-8 flex items-center justify-between bg-teal-900 font-neue-montreal">
+    <div className="fixed z-[999] w-full px-20 py-8 flex items-center justify-between  font-neue-montreal">
       <div>
         <LogoC />
       </div>
