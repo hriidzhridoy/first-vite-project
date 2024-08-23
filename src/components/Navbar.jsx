@@ -3,17 +3,22 @@ import LogoC from "./LogoC";
 
 export default function Navbar() {
   return (
-    <div className="w-full  px-6 py-8">
+    <div className="w-full px-6 py-8 flex items-center justify-between">
       <div>
         <LogoC />
       </div>
-      <div className="flex">
-        {["Services", "Our work", "about us", "Insights", "contact"].map(
-          (each, index) => {
-            <a key={index} className="text-xl capitalize text-teal-50 ">
+      <div className="flex text-white gap-10">
+        {["Services", "Our work", "About us", "Insights", "Contact"].map(
+          (each, index) => (
+            <a
+              key={index}
+              className={`"text-xl capitalize text-teal-50" ${
+                index === 4 && "ml-32"
+              } `}
+            >
               {each}
-            </a>;
-          }
+            </a>
+          )
         )}
       </div>
     </div>
