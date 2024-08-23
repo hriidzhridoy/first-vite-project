@@ -3,7 +3,7 @@ import LogoC from "./LogoC";
 
 export default function Navbar() {
   return (
-    <div className="w-full px-20 py-8 flex items-center justify-between font-neue-montreal">
+    <div className="fixed z-[999] w-full px-20 py-8 flex items-center justify-between bg-teal-900 font-neue-montreal">
       <div>
         <LogoC />
       </div>
@@ -12,7 +12,7 @@ export default function Navbar() {
           (each, index) => (
             <a
               key={index}
-              className={`text-xl capitalize text-teal-50 ${
+              className={`text-md capitalize font-light ${
                 index === 4 && "ml-32"
               }`}
             >
