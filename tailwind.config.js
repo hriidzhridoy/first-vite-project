@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        "neue-montreal": ['"Neue Montreal"', "sans-serif"], // Ensure that the font name is quoted correctly
+        "neue-montreal": ['"Neue Montreal"', "sans-serif"], // Existing font
+        "founders-grotesk": ['"Founders Grotesk"', "sans-serif"], // New font
       },
     },
   },
