@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "neue-montreal": ['"Neue Montreal"', "sans-serif"], // Ensure that the font name is quoted correctly
+      },
+    },
   },
   plugins: [],
 };
