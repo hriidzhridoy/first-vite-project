@@ -14,16 +14,16 @@ export default function LandingPage() {
           </div>
         ))}
       </div>
-      <div className="border-t-[1px] border-zinc-700 mt-24 w-full flex justify-between items-center px-20">
+      <div className="border-t-[1px] border-zinc-700 mt-24 uppercase w-full flex justify-between items-center px-20">
         {[
           "For public and private companies",
           "From the first pitch to IPO",
         ].map((item, index) => (
-          <div key={index} className="text-lg font-medium text-gray-400 my-3">
+          <div key={index} className="text-lg font-light  my-3">
             {item}
           </div>
         ))}
-        <div className="flex items-center">
+        <div className="flex items-center font-light ">
           <div className="p-5 border border-zinc-500 rounded-full m-3 h-9 flex items-center justify-center">
             Start the project
           </div>
