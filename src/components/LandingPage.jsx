@@ -8,7 +8,7 @@ export default function LandingPage() {
         {["We Created", "Eye Opening", "Presentation"].map((text, index) => (
           <div
             key={index}
-            className="font-bold text-6xl my-3 px-8 uppercase leading-none tracking-tighter font-founders-grotesk text-white"
+            className="font-bold text-6xl my-3 px-8 uppercase leading-none tracking-tighter font-neue-montreal text-white"
           >
             {text}
           </div>
