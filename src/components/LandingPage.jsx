@@ -8,13 +8,13 @@ export default function LandingPage() {
         {["We Created", "Eye Opening", "Presentation"].map((text, index) => (
           <div
             key={index}
-            className="font-bold text-6xl my-3 px-8 uppercase leading-none tracking-tighter font-neue-montreal text-white"
+            className={`font-bold text-6xl my-3 px-8 uppercase leading-none tracking-tighter font-neue-montreal text-white`}
           >
             {text}
           </div>
         ))}
       </div>
-      <div className="border-t-[1px] border-zinc-700 mt-24 uppercase w-full flex justify-between items-center px-20">
+      <div className="border-t-[1px] border-zinc-700 mt-24  w-full flex justify-between items-center px-20">
         {[
           "For public and private companies",
           "From the first pitch to IPO",
@@ -23,7 +23,7 @@ export default function LandingPage() {
             {item}
           </div>
         ))}
-        <div className="flex items-center font-light ">
+        <div className="flex items-center font-light uppercase ">
           <div className="p-5 border border-zinc-500 rounded-full m-3 h-9 flex items-center justify-center">
             Start the project
           </div>
