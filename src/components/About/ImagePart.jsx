@@ -3,10 +3,10 @@ import React from "react";
 export default function ImagePart() {
   return (
     <>
-      <div className="flex  p-10 gap-10">
-        <div className=" w-1/2 flex flex-col justify-start items-start p-10 rounded-lg shadow-lg">
-          <p className="text-4xl font-bold text-white mb-4">Our Approach</p>
-          <button className="bg-black text-white px-8 py-4 whitespace-nowrap w-[180px] rounded-full hover:bg-gray-800 transition duration-300">
+      <div className="flex  py-8 gap-10 ">
+        <div className=" w-1/2 flex flex-col justify-start items-start  rounded-lg ">
+          <p className="text-5xl font-medium  mb-4">Our Approach :</p>
+          <button className="bg-black text-white p-3 whitespace-nowrap w-[150px] rounded-full hover:bg-gray-800 transition duration-300">
             Read More
           </button>
         </div>
