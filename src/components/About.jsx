@@ -1,6 +1,7 @@
 import React from "react";
 import TextPart from "./About/TextPart";
 import ParagraphPart from "./About/ParagraphPart";
+import ImagePart from "./About/ImagePart";
 
 export default function About() {
   return (
@@ -10,6 +11,7 @@ export default function About() {
         <hr className="mt-6 border-black" />
         <ParagraphPart />
         <hr className="mt-6 border-black" />
+        <ImagePart />
       </div>
     </>
   );
