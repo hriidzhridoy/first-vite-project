@@ -33,7 +33,7 @@ export default function Eyes() {
   }, []);
 
   return (
-    <div className="w-full h-screen bg-white relative flex justify-center items-center">
+    <div className="w-full h-screen bg-white relative flex  justify-center items-center">
       <div className="object-contain absolute inset-0 ">
         <img
           src="https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg"
@@ -44,14 +44,14 @@ export default function Eyes() {
       {/* Eye 1 */}
       <div
         className="absolute w-40 h-40 bg-white rounded-full flex justify-center items-center"
-        style={{ left: "35%", top: "45%" }}
+        style={{ left: "37%", top: "45%" }}
       >
         <div ref={eyeRef1} className="w-16 h-16 bg-black rounded-full"></div>
       </div>
       {/* Eye 2 */}
       <div
         className="absolute w-40 h-40 bg-white rounded-full flex justify-center items-center"
-        style={{ left: "55%", top: "45%" }}
+        style={{ left: "53%", top: "45%" }}
       >
         <div ref={eyeRef2} className="w-16 h-16 bg-black rounded-full"></div>
       </div>
